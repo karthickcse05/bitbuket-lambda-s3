@@ -6,3 +6,19 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+lambda/bin
+lambda/boto*
+lambda/cer*
+lambda/date*
+lambda/jme*
+lambda/requests*
+lambda/cha*
+lambda/id*
+lambda/p*
+lambda/s*
+lambda/u*
+lambda/__*
+!lambda/requirements.txt
+!lambda/lambda_function.py
+lambda_function_test.py
+test*.py
