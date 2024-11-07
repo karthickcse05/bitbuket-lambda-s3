@@ -29,7 +29,6 @@ export class BitbucketLambdaS3Stack extends cdk.Stack {
     // Grant the Lambda function permissions to read from Secrets Manager and write to S3
     lambdaRole.addToPolicy(new iam.PolicyStatement({
       actions: [
-        'secretsmanager:GetSecretValue',
         's3:PutObject',
         's3:PutObjectAcl'
       ],
